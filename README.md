@@ -1,7 +1,7 @@
 # Haskell Mini-Exercises # 1
 
 
-[![haskell]](https://www.python.org/) [![pytorch](./assets/pytorch.svg)](https://pytorch.org/get-started/locally/) [![pocket](./assets/pocket.svg)](https://github.com/fredzzhang/pocket) [![license](./assets/license.svg)](./LICENSE)
+![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)
 
 
 
@@ -14,7 +14,7 @@
 runhaskell execute.hs
 ```
 
-## autores
+## Autores
 
 If you find our work useful for your research, please consider citing us:
 
