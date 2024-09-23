@@ -5,6 +5,7 @@ import Cubo (cubo)
 import SomaTres (somaTres)
 import FuncaoQuadratica (quadratica)
 import InverterLista (inverterLista)
+import ListDoubles (doubles)
 
 
 data Resultado = RDouble Double | RLista [Int]
@@ -14,14 +15,14 @@ inverterListaIO lista = return $ RLista (inverterLista lista)
 -- Tipo do mapa
 type MapaFuncoes = Map.Map String (IO Resultado)
 
-
 -- Criando o mapa com as funções e seus parâmetros
 meuMapa :: MapaFuncoes
 meuMapa = Map.fromList 
     [ ("cubo", return $ RDouble  (cubo 3))  
     , ("somaTres", return $ RDouble  (somaTres 30 10 20))  
     , ("quadratica", return $ RDouble (quadratica 2.0 2 1 3))
-    , ("InverterLista",  inverterListaIO [1, 2, 3, 4, 5])  
+    , ("InverterLista",  inverterListaIO [1, 2, 3, 4, 5])
+
     ]
 
 
