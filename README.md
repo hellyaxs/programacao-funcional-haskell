@@ -13,8 +13,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] 3. Escreva uma função em Haskell para encontrar a soma de três valores do tipo `Double`. Qual é o tipo dessa função?
 - [x] 4. Escreva uma função em Haskell para encontrar o valor da expressão quadrática `ax^2 + bx + c` para os parâmetros `a`, `b`, `c` e `x`. Qual é o tipo dessa função? 
 - [x] 5. Escreva uma função em Haskell para inverter uma lista. Qual é o tipo dessa função? 
-- [ ] 6. Faça uma função recursiva de uma lista `doubles` cujo primeiro elemento seja `10`, e cujo n-ésimo elemento seja o dobro do n-1-ésimo, ou seja, `[10, 20, 40, 80, 160, 320, ...]`. 
-- [ ] 7. Defina uma lista Haskell `dollars` que seja a lista infinita dos montantes de dinheiro que você terá a cada ano, assumindo que você começa com $100 e recebe juros de 5%, compostos anualmente. (Ignore inflação, deflação, impostos, resgates, a possibilidade de colapso econômico total, e outros detalhes semelhantes.) Assim, `dollars` deve ser igual a `[100.0, 105.0, 110.25, ...]`. 
+- [x] 6. Faça uma função recursiva de uma lista `doubles` cujo primeiro elemento seja `10`, e cujo n-ésimo elemento seja o dobro do n-1-ésimo, ou seja, `[10, 20, 40, 80, 160, 320, ...]`. 
+- [x] 7. Defina uma lista Haskell `dollars` que seja a lista infinita dos montantes de dinheiro que você terá a cada ano, assumindo que você começa com $100 e recebe juros de 5%, compostos anualmente. (Ignore inflação, deflação, impostos, resgates, a possibilidade de colapso econômico total, e outros detalhes semelhantes.) Assim, `dollars` deve ser igual a `[100.0, 105.0, 110.25, ...]`. 
 - [ ] 8. Qual é o tipo de cada uma das seguintes expressões Haskell? (Algumas podem gerar um erro.) 
  
 
