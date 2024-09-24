@@ -1,0 +1,8 @@
+Questão 1 
+
+`"squid" ++ "clam"` => Resulta em uma string, dado que o operador ++ une duas listas, como String são listas de caracteres [char]
+`[True, False, True, True]` => Lista de booleanos [bool]
+`[True, False, 'a']` => Erro de tipo, pois uma lista deve conter dados homogêneos   
+ `(True, False, 'a')` => (bool, bool, char)
+
+Questão 8 
